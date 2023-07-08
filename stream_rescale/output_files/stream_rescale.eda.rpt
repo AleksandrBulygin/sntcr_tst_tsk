@@ -1,0 +1,139 @@
+EDA Netlist Writer report for stream_rescale
+Sat Jul  8 15:27:22 2023
+Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Sat Jul  8 15:27:22 2023 ;
+; Revision Name             ; stream_rescale                        ;
+; Top-level Entity Name     ; stream_rescale                        ;
+; Family                    ; Cyclone V                             ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                             ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+; Option                                                                                            ; Setting                     ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+; Tool Name                                                                                         ; Questa Intel FPGA (Verilog) ;
+; Generate functional simulation netlist                                                            ; On                          ;
+; Truncate long hierarchy paths                                                                     ; Off                         ;
+; Map illegal HDL characters                                                                        ; Off                         ;
+; Flatten buses into individual nodes                                                               ; Off                         ;
+; Maintain hierarchy                                                                                ; Off                         ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                         ;
+; Enable glitch filtering                                                                           ; Off                         ;
+; Do not write top level VHDL entity                                                                ; Off                         ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                         ;
+; Architecture name in VHDL output netlist                                                          ; structure                   ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                         ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                         ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                       ;
++--------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                  ;
++--------------------------------------------------------------------------------------------------+
+; C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/simulation/questa/stream_rescale.vo ;
++--------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+    Info: Processing started: Sat Jul  8 15:27:20 2023
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off stream_rescale -c stream_rescale
+Warning (125092): Tcl Script File test_clk.sip not found
+    Info (125063): set_global_assignment -name SIP_FILE test_clk.sip
+Info (204001): Port "m_data_o[0][0]" is changed into "m_data_o_0_0" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[0][1]" is changed into "m_data_o_0_1" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[0][2]" is changed into "m_data_o_0_2" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[0][3]" is changed into "m_data_o_0_3" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[1][0]" is changed into "m_data_o_1_0" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[1][1]" is changed into "m_data_o_1_1" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[1][2]" is changed into "m_data_o_1_2" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[1][3]" is changed into "m_data_o_1_3" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[2][0]" is changed into "m_data_o_2_0" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[2][1]" is changed into "m_data_o_2_1" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[2][2]" is changed into "m_data_o_2_2" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[2][3]" is changed into "m_data_o_2_3" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[3][0]" is changed into "m_data_o_3_0" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[3][1]" is changed into "m_data_o_3_1" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[3][2]" is changed into "m_data_o_3_2" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[3][3]" is changed into "m_data_o_3_3" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[4][0]" is changed into "m_data_o_4_0" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[4][1]" is changed into "m_data_o_4_1" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[4][2]" is changed into "m_data_o_4_2" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[4][3]" is changed into "m_data_o_4_3" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[5][0]" is changed into "m_data_o_5_0" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[5][1]" is changed into "m_data_o_5_1" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[5][2]" is changed into "m_data_o_5_2" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[5][3]" is changed into "m_data_o_5_3" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[6][0]" is changed into "m_data_o_6_0" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[6][1]" is changed into "m_data_o_6_1" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[6][2]" is changed into "m_data_o_6_2" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "m_data_o[6][3]" is changed into "m_data_o_6_3" because it's a member of 2-D array port "m_data_o" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 39
+Info (204001): Port "s_data_i[0][0]" is changed into "s_data_i_0_0" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[1][0]" is changed into "s_data_i_1_0" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[2][0]" is changed into "s_data_i_2_0" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[3][0]" is changed into "s_data_i_3_0" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[0][1]" is changed into "s_data_i_0_1" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[1][1]" is changed into "s_data_i_1_1" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[2][1]" is changed into "s_data_i_2_1" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[3][1]" is changed into "s_data_i_3_1" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[0][2]" is changed into "s_data_i_0_2" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[1][2]" is changed into "s_data_i_1_2" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[2][2]" is changed into "s_data_i_2_2" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[3][2]" is changed into "s_data_i_3_2" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[0][3]" is changed into "s_data_i_0_3" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[1][3]" is changed into "s_data_i_1_3" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[2][3]" is changed into "s_data_i_2_3" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204001): Port "s_data_i[3][3]" is changed into "s_data_i_3_3" because it's a member of 2-D array port "s_data_i" File: C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/TOP.sv Line: 34
+Info (204019): Generated file stream_rescale.vo in folder "C:/Users/admin/Desktop/Projects/sntcr_tst_tsk/stream_rescale/simulation/questa/" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4788 megabytes
+    Info: Processing ended: Sat Jul  8 15:27:22 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
