@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="clockDecrease_sim/clockDecrease.vo" type="VERILOG" />
+ <topLevel name="clockDecrease" />
+ <deviceFamily name="cyclonev" />
+</simPackage>
